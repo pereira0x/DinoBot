@@ -51,6 +51,7 @@ optional arguments:
   -b, --bot    play using a bot
   -v, --video  play using video capture
 ```
+To quit the script - press 'q'
 
 ## Examples
 ![alt text](https://github.com/pearsettings44/DinoBot/blob/main/pic1.png?raw=true)
