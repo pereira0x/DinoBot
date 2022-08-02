@@ -26,5 +26,5 @@ driver.set_window_size(1024, 768)
 driver.get("https://offline-dino-game.firebaseapp.com/")
 
 if args.video:
-    # Open bot mode
+    # Open video capture mode
     import videomode
