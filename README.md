@@ -55,6 +55,7 @@ optional arguments:
 ## Examples
 ![alt text](https://github.com/pearsettings44/DinoBot/blob/main/pic1.png?raw=true)
 <p align="center">Hand closed (No command).</p>
+
 ![alt text](https://github.com/pearsettings44/DinoBot/blob/main/pic2.png?raw=true)
 <p align="center">Index finger up (Jump).</p>
 
