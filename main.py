@@ -21,6 +21,10 @@ if args.bot == args.video == True:
 # Open Chrome browser on the game URL
 s = Service('./chromedriver')
 driver = webdriver.Chrome(service=s)
-driver.set_window_position(0, 0)
+driver.set_window_position(800, 500)
 driver.set_window_size(1024, 768)
 driver.get("https://offline-dino-game.firebaseapp.com/")
+
+if args.video:
+    # Open bot mode
+    import videomode
