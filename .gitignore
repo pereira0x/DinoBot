@@ -103,9 +103,6 @@ celerybeat.pid
 
 
 chromedriver
-
-
-
 # Environments
 .env
 .venv

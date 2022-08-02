@@ -18,8 +18,8 @@ while True:
         info = hands[0]
         # Number of fingers up
         fingersUp = detector.fingersUp(info)
-        # Jump if all fingers are up
-        if all(finger == 1 for finger in fingersUp):
+        # Jump if index finger is up
+        if fingersUp[1] == 1:
             print("Jump")
             cv2.putText(img, "Command: Jump", (10, 30),
                         cv2.FONT_HERSHEY_SIMPLEX, 1, (0, 0, 255), 2)
