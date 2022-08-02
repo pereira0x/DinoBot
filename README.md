@@ -28,20 +28,6 @@
 ## About The Project
 DinoBot is a Python script for playing the Dinosaur Game (also known as the Chrome Dino). It has the option to control the game with your hand through a video capture device (already implemented), and the option to play it AFK using a bot.
 
-## Installing
-
-Import from GitHub:
-```py
-!wget https://raw.githubusercontent.com/L0garithmic/fastcolabcopy/main/fastcopy.py
-import fastcopy
-```
-
-Import from Google Drive:
-```py
-!cp /gdrive/MyDrive/fastcopy.py .
-import fastcopy
-```
-
 ### Installation
 
 1. Clone the repo
