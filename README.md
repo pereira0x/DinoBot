@@ -54,29 +54,10 @@ optional arguments:
 
 ## Examples
 ![alt text](https://github.com/pearsettings44/DinoBot/blob/main/pic1.png?raw=true)
+<p align="center">Hand closed (No command).</p>
+![alt text](https://github.com/pearsettings44/DinoBot/blob/main/pic2.png?raw=true)
+<p align="center">Index finger up (Jump).</p>
 
-<br />
-<h1>
-<p align="center">
-  <img src="./pic1" alt="Logo" width="140" height="110">
-  <br>DinoBot
-</h1>
-  <p align="center">
-    Hand closed (no command).
-    <br />
-    </p>
-</p>
-<br />
-<h1>
-<p align="center">
-  <img src="./pic2" alt="Logo" width="140" height="110">
-  <br>DinoBot
-</h1>
-  <p align="center">
-    Index finger up (Jump).
-    <br />
-    </p>
-</p>
 
 ## Best Practice
 For the most accurate results, here are some recommendation you should follow:
