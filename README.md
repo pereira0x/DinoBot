@@ -17,7 +17,6 @@
   <a href="#usage">How To Use</a> •
   <a href="#examples">Examples</a> •
   <a href="#best-practice">Best Practice</a> •
-  <a href="#credits">Credits</a> •
 </p>  
 
 <p align="center">
@@ -67,15 +66,9 @@ If you want to see copy execution time:
 !pip install -q ipython-autotime
 %load_ext autotime
 ```
-Check out <a href="examples.md">examples.md</a> for some more examples.
 
 ## Best Practice
-Colab has wildly varying transfer speeds, because of this, the best we can offer are suggestions:
-- For large groups of medium/small files, 15-40 threads seems to work best.
-- For 50+ files with significantly varying sizes, try 2 sequentially copies. `-t 15 -l 400` then `-t 2`
-- For files that are 100MB+, it is best to use 2 threads. It is still faster then rsync.   
-- Currently `--sync` breaks if rsync is ran after. If you are mirroring drives. Disable `--sync` and use the rsync's `--delete` function.
-
-## Credits
-- Credit to [ikonikon](https://github.com/ikonikon/fast-copy) for the base multi-threading code.   
-- Thanks to [@Ostokhoon](https://www.freelancer.com/u/Ostokhoon) for ALL argument and folder hierarchy functionality.
+For the most accurate results, here are some recommendation you should follow:
+- When using your video capture device of choice, make sure it has a decent amount of fps.
+- Make sure you're in a illuminated space, turn on desk lights or open the windows.
+- Try to keep your hands facing the camera in a good angle.
