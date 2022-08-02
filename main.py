@@ -1,5 +1,6 @@
 import argparse
-import browser
+from selenium import webdriver
+from selenium.webdriver.chrome.service import Service
 
 parser = argparse.ArgumentParser()
 
@@ -18,4 +19,7 @@ if args.bot == args.video == True:
     exit()
 
 # Open Chrome browser on the game URL
-browser.open_browser()
+s = Service('./chromedriver')
+driver = webdriver.Chrome(service=s)
+driver.maximize_window()
+driver.get("https://offline-dino-game.firebaseapp.com/")
