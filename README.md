@@ -12,7 +12,7 @@ A bot for the Dinosaur Game (also known as the Chrome Dino). Also has the option
   <br>DinoBot
 </h1>
   <p align="center">
-    Python3 script to transfer files in Google Colab 10-50x faster.
+    Play the Chrome Dino game using hand gestures or using a bot (WIP).
     <br />
     </p>
 </p>
@@ -22,7 +22,6 @@ A bot for the Dinosaur Game (also known as the Chrome Dino). Also has the option
   <a href="#examples">Examples</a> •
   <a href="#best-practice">Best Practice</a> •
   <a href="#credits">Credits</a> •
-  <a href="examples.md">More Examples</a>
 </p>  
 
 <p align="center">
@@ -31,7 +30,7 @@ A bot for the Dinosaur Game (also known as the Chrome Dino). Also has the option
 </p>                                                                                                                             
                                                                                                                                                       
 ## About The Project
-FastColabCopy is a Python script for parallel (multi-threading) copying of files between two locations. Currently developed for Google-Drive to Google-Drive transfers using Google-Colab. This script frequently achieves 10-50x speed improvements when copying numerous small files.
+DinoBot is a Python script for playing the Dinosaur Game (also known as the Chrome Dino). It has the option to control the game with your hand through a video capture device (already implemented), and the option to play it AFK using a bot.
 
 ## Importing
 
