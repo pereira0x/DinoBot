@@ -1,12 +1,7 @@
-import webbrowser
+from selenium import webdriver
+from selenium.webdriver.chrome.service import Service
 
-url = 'https://offline-dino-game.firebaseapp.com/'
-chrome_path = '/usr/bin/google-chrome %s'
-
-def start_game():
-    webbrowser.get(chrome_path).open(url)
-    print('Game started')
-    return
-
-if __name__ == '__main__':
-    start_game()
+s = Service('./chromedriver')
+driver = webdriver.Chrome(service=s)
+driver.maximize_window()
+driver.get("https://offline-dino-game.firebaseapp.com/")

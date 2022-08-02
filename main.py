@@ -18,5 +18,4 @@ if args.bot == args.video == True:
     exit()
 
 # Open Chrome browser on the game URL
-browser.start_game()
-
+browser.open_browser()
