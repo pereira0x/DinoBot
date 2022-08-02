@@ -53,19 +53,28 @@ optional arguments:
 ```
 
 ## Examples
-```py
-from google.colab import drive
-drive.mount('/gdrive', force_remount=False)
-import os
-!wget -q https://raw.githubusercontent.com/L0garithmic/fastcolabcopy/main/fastcopy.py
-import fastcopy
-!python fastcopy.py /gdrive/Shareddrives/Source/. /gdrive/Shareddrives/Destination --thread 20 --size-limit 400mb
-```
-If you want to see copy execution time:
-```mod
-!pip install -q ipython-autotime
-%load_ext autotime
-```
+<br />
+<h1>
+<p align="center">
+  <img src="./pic1" alt="Logo" width="140" height="110">
+  <br>DinoBot
+</h1>
+  <p align="center">
+    Hand closed (no command).
+    <br />
+    </p>
+</p>
+<br />
+<h1>
+<p align="center">
+  <img src="./pic2" alt="Logo" width="140" height="110">
+  <br>DinoBot
+</h1>
+  <p align="center">
+    Index finger up (Jump).
+    <br />
+    </p>
+</p>
 
 ## Best Practice
 For the most accurate results, here are some recommendation you should follow:
