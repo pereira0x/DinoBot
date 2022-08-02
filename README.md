@@ -1,7 +1,3 @@
-# DinoBot
-A bot for the Dinosaur Game (also known as the Chrome Dino). Also has the option to control the game with your hand through a video capture device
-
-
 ![made-with-python](https://img.shields.io/badge/Made%20with-Python3-brightgreen)
 
 <!-- LOGO -->
@@ -32,7 +28,7 @@ A bot for the Dinosaur Game (also known as the Chrome Dino). Also has the option
 ## About The Project
 DinoBot is a Python script for playing the Dinosaur Game (also known as the Chrome Dino). It has the option to control the game with your hand through a video capture device (already implemented), and the option to play it AFK using a bot.
 
-## Importing
+## Installing
 
 Import from GitHub:
 ```py
@@ -46,22 +42,30 @@ Import from Google Drive:
 import fastcopy
 ```
 
+### Installation
+
+1. Clone the repo
+   ```sh
+   git clone https://github.com/pearsettings44/DinoBot
+   ```
+2. Install requirements
+   ```sh
+   pip install -r requirements.txt
+   ```
+3. Start the script (using -v or -b flag)
+   ```sh
+   python3 ./dinobot.py -v
+   ```
 
 ## Usage
 ```sh
-usage: fast-copy.py [-h HELP] source destination [-d DELETE] [-s SYNC] [-r REPLACE]
+usage: dinobot.py [-h] [-b] [-v]
 
 optional arguments:
-  -h --help            show this help message and exit
-  source                the drive you are copying from
-  destination           the drive you are copying to
-  -d --delete           delete the source files after copy
-  -s --sync             delete files in destination if not found in source (do not use, if using with rsync)
-  -r --replace          replace files if they exist
-  -t --thread           set the amount of parallel threads used
-  -l --size-limit       set max size of files copied (supports gb, mb, kb) eg 1.5gb
+  -h, --help   show this help message and exit
+  -b, --bot    play using a bot
+  -v, --video  play using video capture
 ```
-The `source` and `destination` fields are required. Everything else is optional.
 
 ## Examples
 ```py
