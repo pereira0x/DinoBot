@@ -53,6 +53,8 @@ optional arguments:
 ```
 
 ## Examples
+![alt text](https://github.com/pearsettings44/DinoBot/blob/main/pic1.png?raw=true)
+
 <br />
 <h1>
 <p align="center">
