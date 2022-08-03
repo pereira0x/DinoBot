@@ -8,7 +8,6 @@ def grab_screen(region=None):
     img = ImageGrab.grab(bbox=region)
     return img
 
-
 while True:
     # Capture game screen of interest and convert it to a np array
     frame = np.array(grab_screen((800, 400, 1200, 600)))
@@ -22,6 +21,7 @@ while True:
         if x[0] == 83:
             print("Danger")
             pyautogui.press('space')
+            print("Jump")
 
     cv2.imshow('frame', danger)
     if cv2.waitKey(1) & 0xFF == ord('q'):

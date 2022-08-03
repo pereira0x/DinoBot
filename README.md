@@ -25,7 +25,7 @@
 </p>                                                                                                                             
                                                                                                                                                       
 ## About The Project
-DinoBot is a Python script for playing the Dinosaur Game (also known as the Chrome Dino). It has the option to control the game with your hand through a video capture device (already implemented), and the option to play it AFK using a bot.
+DinoBot is a Python script for playing the Dinosaur Game (also known as the Chrome Dino). It has the option to control the game with your hand through a video capture device, and the option to play it AFK using a bot. I'm aware that the bot has very poor performance, feel free to open an issue about that.
 
 ### Installation
 
@@ -59,6 +59,9 @@ To quit the script - press 'q'
 
 ![alt text](https://github.com/pearsettings44/DinoBot/blob/main/pic2.png?raw=true)
 <p align="center">Index finger up (Jump).</p>
+
+![alt text](https://github.com/pearsettings44/DinoBot/blob/main/pic3.png?raw=true)
+<p align="center">Bot in action (should have used a gif :P)</p>
 
 
 ## Best Practice
