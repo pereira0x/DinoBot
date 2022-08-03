@@ -28,3 +28,6 @@ driver.get("https://offline-dino-game.firebaseapp.com/")
 if args.video:
     # Open video capture mode
     import videomode
+if args.bot:
+    # Open bot mode
+    import botmode
